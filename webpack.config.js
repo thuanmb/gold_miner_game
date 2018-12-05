@@ -51,7 +51,7 @@ module.exports = (env = {}) => {
 		},
 		plugins: [
 			HtmlWebpackPluginConfig,
-			DashboardPluginConfig,
+			// DashboardPluginConfig,
 			new DefinePlugin({
 				'process.env': {
 					NODE_ENV: JSON.stringify(ENV),

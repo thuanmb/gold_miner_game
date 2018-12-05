@@ -1,5 +1,6 @@
 import React from 'react';
+import MainApp from '../game/MainApp';
 
-const Game = () => <div className="game">This is new game</div>;
+const Game = () => <MainApp />;
 
 export default Game;

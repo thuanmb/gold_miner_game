@@ -23,6 +23,11 @@
 		"react/jsx-indent": "off",
 		"no-tabs": "off",
 		"comma-dangle": "off",
+		"func-names": "off",
+		"space-before-function-paren": "off",
+		"implicit-arrow-linebreak": "off",
+		"operator-linebreak": "off",
+		"object-curly-newline": "off"
   },
   globals: {
     "_": true

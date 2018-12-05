@@ -3,7 +3,7 @@ import thunkMiddleware from 'redux-thunk';
 import { createLogger } from 'redux-logger';
 import createHistory from 'history/createBrowserHistory';
 import { routerMiddleware, routerReducer } from 'react-router-redux';
-import rootReducer from 'ReducersPath/root';
+import rootReducer from '../reducers/root';
 
 const history = createHistory();
 const middlewares = [
